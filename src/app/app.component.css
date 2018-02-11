@@ -1,0 +1,31 @@
+#notsidebar {
+    margin-left: 0;
+    transition: .3s margin-left;
+    position: relative;
+}
+
+#header {
+    height: 60px;
+    background-image: url(/assets/img/tdp-header-light.png);
+    border-radius: 10px;
+    overflow: hidden;
+    line-height: 60px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    color: #666666;
+    font-weight: 100;
+}
+
+#header #dark {
+    background-image: url(/assets/img/tdp-header-dark.png);
+    padding: 0 10px;
+}
+
+#header #companyname {
+    font-size: 25px;
+}
+
+#header div {
+    height: 60px;
+    float: left;
+}
